@@ -1,0 +1,8 @@
+path: C:\Users\Maxence\PycharmProjects\Yolo-img\YolovPOC
+train: train/images
+val: train/images
+
+nc: 4
+names: ['blue-stylo', 'red-red-stylo', 'red-stylo','regular-stylo']
+
+
