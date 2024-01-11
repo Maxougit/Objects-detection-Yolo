@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(1)
 cap.set(3, 1280)
 cap.set(4, 720)
 
-model = YOLO("bestV2.pt")
+model = YOLO("bestV3.pt")
 
 classNames = ['blue-stylo', 'red-red-stylo', 'red-stylo','regular-stylo']
 
