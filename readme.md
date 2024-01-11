@@ -30,3 +30,4 @@ Installation guide: https://pytorch.org/get-started/locally/
 - Video Tutorial: https://youtu.be/WgPbbWmnXJ8?si=kBaU8ExWHT9-f23B
 - Configuration Tips: https://youtu.be/kEcWUZ8unmc?si=ryRf-3wYbRLfiWoj
 - Official Documentation: https://docs.ultralytics.com/
+- Label Studio instalation : https://labelstud.io/guide/install#Install-with-pip 
