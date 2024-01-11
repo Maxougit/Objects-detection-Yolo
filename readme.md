@@ -1,25 +1,32 @@
--- NOTE :
-    You can manage all with CPU ressources and just download requirement.txt
+# Object detection with Yolo
 
+## System Requirements
+- NVIDIA GPU with appropriate drivers.
+- You don't need any drivers if you want to manage the project on CPU ressources
 
-1- Install NVIDIA CREATOR STUDIO drivers
-    https://www.nvidia.fr/Download/index.aspx?lang=fr 
+## Installation Guide for NVIDIA GPU
 
-2- Install CUDA toolkit
-    https://developer.nvidia.com/cuda-toolkit 
+### 1. NVIDIA CREATOR STUDIO Drivers
+Install NVIDIA CREATOR STUDIO drivers.
+Download link: https://www.nvidia.fr/Download/index.aspx?lang=fr 
 
-    Restart your computer
+### 2. CUDA Toolkit
+Install the CUDA Toolkit.
+Download link: https://developer.nvidia.com/cuda-toolkit 
+(Restart your computer after installation)
 
-3- Install CUDA DNN
-    https://developer.nvidia.com/cudnn
+### 3. CUDA DNN
+Install CUDA DNN.
+Download link: https://developer.nvidia.com/cudnn
+After installation:
+- Copy the 'bin', 'lib', and 'include' folders from the downloaded package.
+- Paste into 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3'.
 
-    copy bin, lib and include from the downloaded file to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3 in each sub folders. 
+### 4. PyTorch
+Install the appropriate version of PyTorch.
+Installation guide: https://pytorch.org/get-started/locally/
 
-4. Install the good version of PyTorch 
-    https://pytorch.org/get-started/locally/ 
-
-
-Usefull rerources : 
-https://youtu.be/WgPbbWmnXJ8?si=kBaU8ExWHT9-f23B
-https://youtu.be/kEcWUZ8unmc?si=ryRf-3wYbRLfiWoj 
-https://docs.ultralytics.com/ 
+## Useful Resources
+- Video Tutorial: https://youtu.be/WgPbbWmnXJ8?si=kBaU8ExWHT9-f23B
+- Configuration Tips: https://youtu.be/kEcWUZ8unmc?si=ryRf-3wYbRLfiWoj
+- Official Documentation: https://docs.ultralytics.com/
